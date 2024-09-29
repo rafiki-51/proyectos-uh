@@ -1,0 +1,75 @@
+<html>
+<head>
+    <title>División de Página con Posicionamiento</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            position: relative;
+        }
+
+        .banner {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 10%;
+            background-color: rgb(219, 244, 76);
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            padding-top: 10px;
+            font-size: 1.5rem;
+        }
+
+        .menu {
+            position: absolute;
+            top: 10%;
+            left: 0;
+            width: 25%;
+            height: 90%;
+            background-color: lightcoral;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.2rem;
+        }
+
+        .content {
+            position: absolute;
+            top: 10%;
+            left: 25%;
+            width: 75%;
+            height: 90%;
+            background-color: lightgreen;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.2rem;
+        }
+
+        .footer {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 10%;
+            background-color: rgb(142, 237, 246);
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            padding-top: 10px;
+            font-size: 1.5rem;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="banner">Banner</div>
+    <div class="menu">Menú</div>
+    <div class="content">Contenido</div>
+    <div class="footer">Pie de página</div>
+
+</body>
+</html>
