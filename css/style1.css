@@ -1,0 +1,35 @@
+/*
+            3 formas de escribir CSS
+            3.1 cuando el selector se llama igual que una etiqueta, por ejemplo la etiqueta <p>
+            3.2 cuando el selector inicia con un punto .
+            3.3 Cuando el selector inicial con un signo de #
+
+        */
+    
+        p{
+            color:blue;
+            background-color: rgb(0, 225, 255);
+
+        }
+    
+        p span{
+            color:rgb(9, 5, 0);
+        }
+
+        .stilo1{
+            background-color: yellow;
+            font-size: 50px;
+        }
+
+        .stilo2{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        #stilo3{
+            background-color: tomato;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+        }
+
+
